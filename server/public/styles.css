@@ -1,0 +1,27 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+#logo {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url('./images/Validfy\ Logo\ \(notext\).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 15px;
+}
+
+.hButton {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
