@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/tonykjin/validfy#readme",
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^10.0.3",
+    "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "next": "^9.1.1",
     "react": "^16.10.2",
