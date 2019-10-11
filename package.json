@@ -1,0 +1,36 @@
+{
+  "name": "validfy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonykjin/validfy.git"
+  },
+  "keywords": [],
+  "author": "tonykjin tonyjin23@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonykjin/validfy/issues"
+  },
+  "homepage": "https://github.com/tonykjin/validfy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "sequelize": "^5.19.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
