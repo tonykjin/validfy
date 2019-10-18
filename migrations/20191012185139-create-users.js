@@ -17,7 +17,16 @@ module.exports = {
       type: 'VARCHAR',
     },
     hashedLicense: {
+      allowNull: true,
       type: 'VARCHAR',
+      defaultValue: null,
+    },
+    email: {
+      type: Sequelize.STRING,
+      allowNull: false,
+    },
+    phone: {
+      type: Sequelize.INTEGER,
     },
     createdAt: {
       allowNull: false,
