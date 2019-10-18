@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  FormControl, Form, Button,
-} from 'react-bootstrap';
+import { FormControl, Form, Button } from 'react-bootstrap';
 
 export default class Login extends React.Component {
   constructor(props) {
@@ -43,9 +41,6 @@ export default class Login extends React.Component {
             onChange={this.handleChange}
           />
           <Form.Label>Email Address</Form.Label>
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text>
         </Form.Group>
 
         <Form.Group controlId="formBasicPassword">
@@ -53,9 +48,10 @@ export default class Login extends React.Component {
             name="password"
             value={this.state.password}
             onChange={this.handleChange}
+            type="password"
+            placeholder="Password"
           />
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
         </Form.Group>
 
         <Button
