@@ -2,6 +2,11 @@
     "extends" : "airbnb-base",
     "parser": "babel-eslint",
     "rules": {
-        "import/no-dynamic-require": 0
+        "import/no-dynamic-require": 0,
+        "no-unused-expressions": "off",
+        "no-undef": "off",
+        "no-unused-vars": "off",
+        "arrow-body-style": "off",
+        "class-methods-use-this": "off"
     }
 }
