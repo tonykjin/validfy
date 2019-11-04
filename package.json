@@ -2,32 +2,15 @@
   "name": "validfy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "migrate": "node_modules/.bin/sequelize db:migrate",
-    "undo": "node_modules/.bin/sequelize db:migrate:undo",
-    "undo-all": "node_modules/.bin/sequelize db:migrate:undo:all",
-    "start": "node ./api/index.js",
-    "dev": "next",
-    "build": "next build",
-    "webpack": "webpack -wd",
-    "pm2": "pm2 start ./api/index.js --watch --interpreter babel-node"
-  },
-  "babel": {
-    "presets": [
-      "react",
-      "env",
-      "stage-2",
-      "next"
-    ]
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tonykjin/validfy.git"
   },
-  "keywords": [],
-  "author": "tonykjin tonyjin23@gmail.com",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tonykjin/validfy/issues"
@@ -37,44 +20,38 @@
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-react-jsx": "^7.3.0",
     "@hapi/boom": "^8.0.1",
-    "argon2": "^0.25.0",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-next": "^1.2.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "bluebird": "^3.7.1",
-    "bootstrap": "^4.3.1",
     "connect-redis": "^4.0.3",
     "cookie-parser": "^1.4.4",
-    "dotenv": "^8.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.5.1",
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-promise-router": "^3.0.3",
-    "express-session": "^1.17.0",
-    "jest": "^24.9.0",
+    "express-sessions": "^1.0.6",
     "jsonwebtoken": "^8.5.1",
-    "next": "^9.1.1",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
-    "pm2": "^4.1.2",
     "promise-retry": "^1.1.1",
-    "react": "^16.10.2",
-    "react-bootstrap": "^1.0.0-beta.14",
-    "react-dom": "^16.10.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "redis": "^2.8.0",
-    "sequelize": "^5.19.6",
+    "sequelize": "^5.21.1",
     "webpack": "^4.41.2"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.1.2",
+    "eslint-plugin-react-hooks": "^2.2.0",
     "sequelize-cli": "^5.5.1",
     "webpack-cli": "^3.3.9"
   }
