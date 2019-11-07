@@ -5,7 +5,10 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node": "node -r esm server/index.js"
+    "node": "node -r esm server/index.js",
+    "up": "node_modules/.bin/sequelize db:migrate",
+    "down": "node_modules/.bin/sequelize db:migrate:undo",
+    "down-all": "node_modules/.bin/sequelize db:migrate:undo:all"
   },
   "repository": {
     "type": "git",
